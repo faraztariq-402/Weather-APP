@@ -20,7 +20,7 @@ body{
     font-size: 1.6rem;
     font-weight: bold;
     color: black;
-    margin-left: 0.9rem;
+    margin-left: 0.8rem;
 }
 #time{
     font-size: 1.9rem;
@@ -71,6 +71,9 @@ button{
 @media screen and (max-width:550px) {
     input{
         width: 15rem;
+    }
+    .parent{
+        margin-bottom: 2.5rem;
     }
 }
 @media screen and (min-width:350px) and (max-width:700px) {
