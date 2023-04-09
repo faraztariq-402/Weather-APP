@@ -1,0 +1,111 @@
+
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+ background-color: rgb(115, 115, 117);
+}
+#result {
+    font-size: 7rem;
+    font-weight: bold;
+    color: black;
+}
+#yourCityName{
+    /* margin-bottom: 1.4rem; */
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+}
+.parent{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+    margin-left: 0.9rem;
+}
+#time{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+input{
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* body{
+    background-color: rgb(111, 121, 121);
+} */
+h1{
+    margin-top: 1rem;
+    font-size: 3rem;
+    background-color: black;
+    height: 3.9rem;
+    color: white;
+    font-weight: bolder;
+}
+button{
+    background-color: rgb(69, 122, 69);
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+}
+.picsParent{
+       display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+#clear{
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+ 
+}
+#result{
+    text-align: center;
+}
+
+@media screen and (max-width:550px) {
+    input{
+        width: 15rem;
+    }
+}
+@media screen and (min-width:350px) and (max-width:700px) {
+   .parent{
+    text-align: center;
+   }
+   .picsParent{
+    display: flex;
+    justify-content: center;
+   }
+}
+@media screen and (min-width:701px) {
+
+    .content1{
+        display: flex;
+        margin-top: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .content2{
+        display: flex;
+        margin-top: 2rem;
+        font-size: 2rem;
+        justify-content: space-around;
+        align-items: center;
+    }
+ }
+@media screen and (max-width:768px) {
+    #time{
+        font-size: 1.4rem;
+    }
+    #result{
+        font-size: 3.7rem;
+    } #yourCityName{
+        font-size: 2.1rem;
+    }
+}
